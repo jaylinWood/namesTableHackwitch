@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED6CD4B2237B275D00D4BA54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD4B1237B275D00D4BA54 /* AppDelegate.swift */; };
+		ED6CD4B4237B275D00D4BA54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD4B3237B275D00D4BA54 /* SceneDelegate.swift */; };
+		ED6CD4B6237B275D00D4BA54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD4B5237B275D00D4BA54 /* ViewController.swift */; };
+		ED6CD4B9237B275D00D4BA54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6CD4B7237B275D00D4BA54 /* Main.storyboard */; };
+		ED6CD4BB237B276000D4BA54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6CD4BA237B276000D4BA54 /* Assets.xcassets */; };
+		ED6CD4BE237B276000D4BA54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6CD4BC237B276000D4BA54 /* LaunchScreen.storyboard */; };
+		ED6CD4C9237B276000D4BA54 /* namesTableHackwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD4C8237B276000D4BA54 /* namesTableHackwitchTests.swift */; };
+		ED6CD4D4237B276000D4BA54 /* namesTableHackwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD4D3237B276000D4BA54 /* namesTableHackwitchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED6CD4C5237B276000D4BA54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6CD4A6237B275D00D4BA54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6CD4AD237B275D00D4BA54;
+			remoteInfo = namesTableHackwitch;
+		};
+		ED6CD4D0237B276000D4BA54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6CD4A6237B275D00D4BA54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6CD4AD237B275D00D4BA54;
+			remoteInfo = namesTableHackwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED6CD4AE237B275D00D4BA54 /* namesTableHackwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = namesTableHackwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6CD4B1237B275D00D4BA54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED6CD4B3237B275D00D4BA54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED6CD4B5237B275D00D4BA54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED6CD4B8237B275D00D4BA54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED6CD4BA237B276000D4BA54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED6CD4BD237B276000D4BA54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED6CD4BF237B276000D4BA54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6CD4C4237B276000D4BA54 /* namesTableHackwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = namesTableHackwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6CD4C8237B276000D4BA54 /* namesTableHackwitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = namesTableHackwitchTests.swift; sourceTree = "<group>"; };
+		ED6CD4CA237B276000D4BA54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6CD4CF237B276000D4BA54 /* namesTableHackwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = namesTableHackwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6CD4D3237B276000D4BA54 /* namesTableHackwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = namesTableHackwitchUITests.swift; sourceTree = "<group>"; };
+		ED6CD4D5237B276000D4BA54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED6CD4AB237B275D00D4BA54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6CD4C1237B276000D4BA54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6CD4CC237B276000D4BA54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED6CD4A5237B275D00D4BA54 = {
+			isa = PBXGroup;
+			children = (
+				ED6CD4B0237B275D00D4BA54 /* namesTableHackwitch */,
+				ED6CD4C7237B276000D4BA54 /* namesTableHackwitchTests */,
+				ED6CD4D2237B276000D4BA54 /* namesTableHackwitchUITests */,
+				ED6CD4AF237B275D00D4BA54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED6CD4AF237B275D00D4BA54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED6CD4AE237B275D00D4BA54 /* namesTableHackwitch.app */,
+				ED6CD4C4237B276000D4BA54 /* namesTableHackwitchTests.xctest */,
+				ED6CD4CF237B276000D4BA54 /* namesTableHackwitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED6CD4B0237B275D00D4BA54 /* namesTableHackwitch */ = {
+			isa = PBXGroup;
+			children = (
+				ED6CD4B1237B275D00D4BA54 /* AppDelegate.swift */,
+				ED6CD4B3237B275D00D4BA54 /* SceneDelegate.swift */,
+				ED6CD4B5237B275D00D4BA54 /* ViewController.swift */,
+				ED6CD4B7237B275D00D4BA54 /* Main.storyboard */,
+				ED6CD4BA237B276000D4BA54 /* Assets.xcassets */,
+				ED6CD4BC237B276000D4BA54 /* LaunchScreen.storyboard */,
+				ED6CD4BF237B276000D4BA54 /* Info.plist */,
+			);
+			path = namesTableHackwitch;
+			sourceTree = "<group>";
+		};
+		ED6CD4C7237B276000D4BA54 /* namesTableHackwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED6CD4C8237B276000D4BA54 /* namesTableHackwitchTests.swift */,
+				ED6CD4CA237B276000D4BA54 /* Info.plist */,
+			);
+			path = namesTableHackwitchTests;
+			sourceTree = "<group>";
+		};
+		ED6CD4D2237B276000D4BA54 /* namesTableHackwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED6CD4D3237B276000D4BA54 /* namesTableHackwitchUITests.swift */,
+				ED6CD4D5237B276000D4BA54 /* Info.plist */,
+			);
+			path = namesTableHackwitchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED6CD4AD237B275D00D4BA54 /* namesTableHackwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6CD4D8237B276000D4BA54 /* Build configuration list for PBXNativeTarget "namesTableHackwitch" */;
+			buildPhases = (
+				ED6CD4AA237B275D00D4BA54 /* Sources */,
+				ED6CD4AB237B275D00D4BA54 /* Frameworks */,
+				ED6CD4AC237B275D00D4BA54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = namesTableHackwitch;
+			productName = namesTableHackwitch;
+			productReference = ED6CD4AE237B275D00D4BA54 /* namesTableHackwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED6CD4C3237B276000D4BA54 /* namesTableHackwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6CD4DB237B276000D4BA54 /* Build configuration list for PBXNativeTarget "namesTableHackwitchTests" */;
+			buildPhases = (
+				ED6CD4C0237B276000D4BA54 /* Sources */,
+				ED6CD4C1237B276000D4BA54 /* Frameworks */,
+				ED6CD4C2237B276000D4BA54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED6CD4C6237B276000D4BA54 /* PBXTargetDependency */,
+			);
+			name = namesTableHackwitchTests;
+			productName = namesTableHackwitchTests;
+			productReference = ED6CD4C4237B276000D4BA54 /* namesTableHackwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED6CD4CE237B276000D4BA54 /* namesTableHackwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6CD4DE237B276000D4BA54 /* Build configuration list for PBXNativeTarget "namesTableHackwitchUITests" */;
+			buildPhases = (
+				ED6CD4CB237B276000D4BA54 /* Sources */,
+				ED6CD4CC237B276000D4BA54 /* Frameworks */,
+				ED6CD4CD237B276000D4BA54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED6CD4D1237B276000D4BA54 /* PBXTargetDependency */,
+			);
+			name = namesTableHackwitchUITests;
+			productName = namesTableHackwitchUITests;
+			productReference = ED6CD4CF237B276000D4BA54 /* namesTableHackwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED6CD4A6237B275D00D4BA54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "jaylin wood";
+				TargetAttributes = {
+					ED6CD4AD237B275D00D4BA54 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					ED6CD4C3237B276000D4BA54 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = ED6CD4AD237B275D00D4BA54;
+					};
+					ED6CD4CE237B276000D4BA54 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = ED6CD4AD237B275D00D4BA54;
+					};
+				};
+			};
+			buildConfigurationList = ED6CD4A9237B275D00D4BA54 /* Build configuration list for PBXProject "namesTableHackwitch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED6CD4A5237B275D00D4BA54;
+			productRefGroup = ED6CD4AF237B275D00D4BA54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED6CD4AD237B275D00D4BA54 /* namesTableHackwitch */,
+				ED6CD4C3237B276000D4BA54 /* namesTableHackwitchTests */,
+				ED6CD4CE237B276000D4BA54 /* namesTableHackwitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED6CD4AC237B275D00D4BA54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6CD4BE237B276000D4BA54 /* LaunchScreen.storyboard in Resources */,
+				ED6CD4BB237B276000D4BA54 /* Assets.xcassets in Resources */,
+				ED6CD4B9237B275D00D4BA54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6CD4C2237B276000D4BA54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6CD4CD237B276000D4BA54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED6CD4AA237B275D00D4BA54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6CD4B6237B275D00D4BA54 /* ViewController.swift in Sources */,
+				ED6CD4B2237B275D00D4BA54 /* AppDelegate.swift in Sources */,
+				ED6CD4B4237B275D00D4BA54 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6CD4C0237B276000D4BA54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6CD4C9237B276000D4BA54 /* namesTableHackwitchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6CD4CB237B276000D4BA54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6CD4D4237B276000D4BA54 /* namesTableHackwitchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED6CD4C6237B276000D4BA54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6CD4AD237B275D00D4BA54 /* namesTableHackwitch */;
+			targetProxy = ED6CD4C5237B276000D4BA54 /* PBXContainerItemProxy */;
+		};
+		ED6CD4D1237B276000D4BA54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6CD4AD237B275D00D4BA54 /* namesTableHackwitch */;
+			targetProxy = ED6CD4D0237B276000D4BA54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED6CD4B7237B275D00D4BA54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6CD4B8237B275D00D4BA54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED6CD4BC237B276000D4BA54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6CD4BD237B276000D4BA54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED6CD4D6237B276000D4BA54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED6CD4D7237B276000D4BA54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED6CD4D9237B276000D4BA54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = namesTableHackwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = picReTuch.namesTableHackwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED6CD4DA237B276000D4BA54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = namesTableHackwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = picReTuch.namesTableHackwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED6CD4DC237B276000D4BA54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = namesTableHackwitchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = picReTuch.namesTableHackwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/namesTableHackwitch.app/namesTableHackwitch";
+			};
+			name = Debug;
+		};
+		ED6CD4DD237B276000D4BA54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = namesTableHackwitchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = picReTuch.namesTableHackwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/namesTableHackwitch.app/namesTableHackwitch";
+			};
+			name = Release;
+		};
+		ED6CD4DF237B276000D4BA54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = namesTableHackwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = picReTuch.namesTableHackwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = namesTableHackwitch;
+			};
+			name = Debug;
+		};
+		ED6CD4E0237B276000D4BA54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = namesTableHackwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = picReTuch.namesTableHackwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = namesTableHackwitch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED6CD4A9237B275D00D4BA54 /* Build configuration list for PBXProject "namesTableHackwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6CD4D6237B276000D4BA54 /* Debug */,
+				ED6CD4D7237B276000D4BA54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6CD4D8237B276000D4BA54 /* Build configuration list for PBXNativeTarget "namesTableHackwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6CD4D9237B276000D4BA54 /* Debug */,
+				ED6CD4DA237B276000D4BA54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6CD4DB237B276000D4BA54 /* Build configuration list for PBXNativeTarget "namesTableHackwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6CD4DC237B276000D4BA54 /* Debug */,
+				ED6CD4DD237B276000D4BA54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6CD4DE237B276000D4BA54 /* Build configuration list for PBXNativeTarget "namesTableHackwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6CD4DF237B276000D4BA54 /* Debug */,
+				ED6CD4E0237B276000D4BA54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED6CD4A6237B275D00D4BA54 /* Project object */;
+}
