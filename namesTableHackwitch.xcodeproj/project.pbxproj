@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		ED6CD4B2237B275D00D4BA54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD4B1237B275D00D4BA54 /* AppDelegate.swift */; };
 		ED6CD4B4237B275D00D4BA54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD4B3237B275D00D4BA54 /* SceneDelegate.swift */; };
-		ED6CD4B6237B275D00D4BA54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD4B5237B275D00D4BA54 /* ViewController.swift */; };
 		ED6CD4B9237B275D00D4BA54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6CD4B7237B275D00D4BA54 /* Main.storyboard */; };
 		ED6CD4BB237B276000D4BA54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6CD4BA237B276000D4BA54 /* Assets.xcassets */; };
 		ED6CD4BE237B276000D4BA54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6CD4BC237B276000D4BA54 /* LaunchScreen.storyboard */; };
 		ED6CD4C9237B276000D4BA54 /* namesTableHackwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD4C8237B276000D4BA54 /* namesTableHackwitchTests.swift */; };
 		ED6CD4D4237B276000D4BA54 /* namesTableHackwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD4D3237B276000D4BA54 /* namesTableHackwitchUITests.swift */; };
+		ED6CD4E4237B27FB00D4BA54 /* namesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CD4E3237B27FB00D4BA54 /* namesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		ED6CD4AE237B275D00D4BA54 /* namesTableHackwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = namesTableHackwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6CD4B1237B275D00D4BA54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED6CD4B3237B275D00D4BA54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED6CD4B5237B275D00D4BA54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ED6CD4B8237B275D00D4BA54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED6CD4BA237B276000D4BA54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED6CD4BD237B276000D4BA54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		ED6CD4CF237B276000D4BA54 /* namesTableHackwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = namesTableHackwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6CD4D3237B276000D4BA54 /* namesTableHackwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = namesTableHackwitchUITests.swift; sourceTree = "<group>"; };
 		ED6CD4D5237B276000D4BA54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6CD4E3237B27FB00D4BA54 /* namesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = namesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,8 @@
 			children = (
 				ED6CD4B1237B275D00D4BA54 /* AppDelegate.swift */,
 				ED6CD4B3237B275D00D4BA54 /* SceneDelegate.swift */,
-				ED6CD4B5237B275D00D4BA54 /* ViewController.swift */,
 				ED6CD4B7237B275D00D4BA54 /* Main.storyboard */,
+				ED6CD4E3237B27FB00D4BA54 /* namesTableViewController.swift */,
 				ED6CD4BA237B276000D4BA54 /* Assets.xcassets */,
 				ED6CD4BC237B276000D4BA54 /* LaunchScreen.storyboard */,
 				ED6CD4BF237B276000D4BA54 /* Info.plist */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED6CD4B6237B275D00D4BA54 /* ViewController.swift in Sources */,
+				ED6CD4E4237B27FB00D4BA54 /* namesTableViewController.swift in Sources */,
 				ED6CD4B2237B275D00D4BA54 /* AppDelegate.swift in Sources */,
 				ED6CD4B4237B275D00D4BA54 /* SceneDelegate.swift in Sources */,
 			);
